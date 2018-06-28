@@ -1,0 +1,25 @@
+{
+  "name": "chatroom-server",
+  "version": "1.0.0",
+  "description": "Chatroom Server",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp build",
+    "start": "node dist/index.js"
+  },
+  "author": "Oschangkai",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.11.1",
+    "@types/node-fetch": "^2.1.1",
+    "@types/socket.io": "^1.4.33",
+    "express": "^4.16.3",
+    "node-fetch": "^2.1.2",
+    "socket.io": "^2.1.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^4.0.2",
+    "typescript": "^2.8.3"
+  }
+}
